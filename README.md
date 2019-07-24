@@ -5,7 +5,8 @@ FIXME
 ## Getting Started
 
 1. Start the application: `lein run`
-2. Go to [localhost:8080](http://localhost:8080/) to see: `Hello World!`
+2. Go to [localhost:8080](http://localhost:8080/) to see: **API GoodReads!**
+3. Go to [localhost:8080](http://localhost:8080/book-detail?title=some book) to search for a book.
 3. Read your app's source code at src/book_api_clojure/service.clj. Explore the docs of functions
    that define routes and responses.
 4. Run your app's tests with `lein test`. Read the tests at test/book_api_clojure/service_test.clj.
