@@ -1,6 +1,6 @@
 # book-api-clojure
 
-FIXME
+Search for books using Goodreads API
 
 ## Getting Started
 
