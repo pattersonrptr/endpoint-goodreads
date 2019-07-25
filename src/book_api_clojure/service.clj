@@ -16,10 +16,10 @@
 
    (try
        (let [title (get-in request [:query-params :title])]
-           (clj-http.client/get 
-				           (str url title)))
-  					(catch Exception e
-  					    (prn "Erro" e))))
+           (clj-http.client/get
+               (str url title)))
+       (catch Exception e
+           (prn "Erro" e))))
    				
 
 ;; The interceptors defined after the verb map (e.g., {:get home-page}
